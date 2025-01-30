@@ -7,6 +7,7 @@ public class EnableDisable : MonoBehaviour
     SpriteRenderer sr;
     EnableDisable ed;
     public GameObject go;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,8 @@ public class EnableDisable : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             sr.enabled = !sr.enabled;
+            if (sr.enabled) 
+                audioSource.PlayOneShot(audioSource.clip);
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
