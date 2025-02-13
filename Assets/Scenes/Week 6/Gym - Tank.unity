@@ -2323,6 +2323,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3444902946161389516, guid: 6717f33ec1f53fd4884ec1f1355d71c8, type: 3}
   m_PrefabInstance: {fileID: 1983396853}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1340566010 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 377967386873677301, guid: 6717f33ec1f53fd4884ec1f1355d71c8, type: 3}
+  m_PrefabInstance: {fileID: 1983396853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6ff661d239b9d43ae45063194db321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1429763422
 GameObject:
   m_ObjectHideFlags: 0
@@ -3088,6 +3099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 7667505342126729970, guid: 82553ac9025f73949bc434c64ffc3b20, type: 3}
   BulletSpeed: {fileID: 1520663272}
+  Gravity: {fileID: 1340566010}
   BulletAppearanceDropdown: {fileID: 45013710}
   audio: {fileID: 2134535262}
   gunshot: {fileID: 8300000, guid: 8c393f694bb4d3f419fb86927b7cfa2e, type: 3}
