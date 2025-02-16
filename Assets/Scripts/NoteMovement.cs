@@ -15,7 +15,7 @@ public class NoteMovement : MonoBehaviour
     void Start()
     {
         rt = GetComponent<RectTransform>();
-        float angle = Random.RandomRange(0f, Mathf.PI * 2);
+        float angle = Random.Range(0f, Mathf.PI * 2);
         direction = new Vector3(Mathf.Sin(angle), Mathf.Cos(angle), 0);
         normal = new Vector3(-1 * direction.y, direction.x, 0);
         }
